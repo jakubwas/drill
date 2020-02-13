@@ -1,0 +1,845 @@
+1. Powszechnie stosowane w energetyce maszyny elektryczne dzialaja na podstawie prawa:
+A) powszechnego ciazenia
+>>>B) indukcji elektromagnetycznej i prawa Ampera
+C) adiabatycznej przemiany gazowej
+D) elektrostatycznego oddzialywania ladunkow
+
+2. Przeplywem nazywamy:
+A) strumien wektora indukcji przeplywajacy przez szczeline
+B) rozklad amperozwojow wzdluz obwodu szczeliny
+>>>C) calkowite amperozwoje objete droga calkowania
+D) rozklad natezenia pola wzdluz obwodu szczeliny
+
+3. Strumien pola magnetycznego sprzezony z uzwojeniem to:
+>>>A) suma strumieni sprzezonych z poszczegolnymi zwojami uzwojenia
+B) calka z wektora indukcji po powierzchni ograniczonej jednym zwojem uzwojenia
+C) iloraz powierzchni ograniczonej uzwojeniem i wartosci sredniej indukcji na tej powierzchni
+D) iloczyn powierzchni ograniczonej jednym zwojem i wartosci skutecznej indukcji na tej powierzchni
+
+4. Prawo indukcji elektromagnetycznej to wyrazenie sem indukowanej w uzwojeniu jako:
+>>>A) pochodnej wzgledem czasu strumienia magnetycznego sprzezonego z uzwojeniem,
+B) iloczynu predkosci uzwojenia i indukcji
+C) pochodnej strumienia magnetycznego sprzezonego z uzwojeniem wzgledem kata jego polozenia
+D) iloczynu wartosci strumienia i predkosci
+
+5. 1/2*sum(Mkl*Ik*Il) Mkl-indukcyjnosc wzajemna, Ik,Il-prady
+A) sile wywolana przez pole magnetyczne ukladu uzwojen
+>>>B) koenergie pola magnetycznego ukladu uzwojen
+C) moment elektromagnetyczny wytwarzany w maszynach elektrycznych
+D) moc przetwarzana w maszynach elektrycznych
+
+6. Moment elektromagnetyczny wytwarzany w maszynach elektrycznych wirujacych oblicza sie jako:
+A) pochodna energii pola magnetycznego w maszynie wzgledem czasu
+>>>B) pochodna czastkowa koenergii pola magnetycznego w maszynie wzgledem kata polozenia wirnika
+C) pochodna czastkowa koenergii pola magnetycznego w maszynie wzgledem predkosci wirnika
+D) roznice energii i koenergii pola magnetycznego
+
+7. Funkcja Lagrange’a jest
+A) suma energii kinetycznej i energii potencjalnej
+B) suma koenergii kinetycznej i koenergii potencjalnej
+C) roznica energii kinetycznej i koenergii potencjalnej
+>>>D) roznica koenergii kinetycznej i energii potencjalnej
+
+8. Zasada Hamiltona dotyczy ekstremum
+A) funkcji dzialania
+>>>B) funkcjonalu dzialania
+C) transformacji dzialania
+D) funkcji Lagrange’a
+
+9. Spelnianie rownan Eulera jest warunkiem koniecznym ekstremum
+>>>A) funkcjonalu dzialania
+B) funkcji Lagrange’a
+C) koenergii kinetycznej ukladu elektromechanicznego
+D) energii potencjalnej ukladu elektromechanicznego
+
+10. Stopy zelaza w postaci izolowanych blach stosuje sie w maszynach elektrycznych do budowy:
+A) obwodow przewodzacych prad elektryczny
+B) izolacji obwodow pradowych
+>>>C) czesci przewodzacych strumien magnetyczny
+D) obudow i walow
+
+11. Obwody magnetyczne (rdzenie) maszyn elektrycznych pradu przemiennego i transformatorow wykonuje sie pakietujac je z blach stalowych, aby:
+>>>A) zmniejszyc straty energii w rdzeniu, pochodzace od pradow wirowych,
+B) wzmocnic konstrukcje,
+C) zapobiec oddzialywaniu pola magnetycznego na urzadzenia zewnetrzne,
+D) zapewnic dobre chlodzenie uzwojen
+
+12. Polem wirujacym jest nazywane pole magnetyczne w szczelinie powietrznej maszyny elektrycznej
+A) przemieszczajace sie ze zmienna predkoscia, ale zachowujace niezmienny rozklad,
+B) przemieszczajace sie z predkoscia wirnika i rozkladzie zaleznym od predkosci wirnika,
+C) przemieszczajace sie ze stala predkoscia i zachowujace niezmienny rozklad,
+>>>D) przemieszczajace sie ze stala predkoscia i rozkladzie zaleznym od obciazenia wirnika
+
+13. Wirujace kolowe pole magnetyczne w szczelinie maszyny mozna uzyskac:
+>>>A) zasilajac trzy symetryczne uzwojenia pradem trojfazowym symetrycznym
+B) obracajac wirnik klatkowy maszyny przy zasilaniu stojana pradem stalym
+C) zasilajac napieciem jednofazowym trzy rownolegle polaczone uzwojenia
+D) zasilajac napieciem jednofazowym trzy szeregowo polaczone uzwojenia
+
+14. W nasyconych obwodach ferromagnetycznych:
+a) energia magnetyczna jest wieksza od koenergii
+>>b) koenergia magnetyczna jest wieksza od energii
+c) obie energie sa jednakowe
+d) relacja miedzy energia i koenergia zalezy od sposobu wytwarzania pola magnetycznego
+
+16. Wartosc maksymalna sily elektromotorycznej indukowanej w wirujacym uzwojeniu nie zalezy od: 
+a) liczby zwojow
+b) predkosci wirowania
+>>>c) rezystancji uzwojenia
+d) wymiarow uzwojenia
+
+17. Rozszerzony formalizm Lagrange’a-Eulera mozna stosowac:
+>>>a) w dowolnych ukladach fizycznych spelniajacych zalozenia formalizmu
+b) tylko w ukladach elektromechanicznych konserwatywnych
+c) tylko w ukladach elektromechanicznych niekonserwatywnych
+d) tylko w ukladach elektromechanicznych.
+
+19. Wartosc momentu elektromagnetycznego silnika elektrycznego mozna oszacowac korzystajac z prawa:
+a) Laplace’a
+>>>b) Faraday’a
+c) Coulomba
+d) Kirchoffa
+
+20. Wartosc napiecia indukowanego w uzwojeniach generatora elektrycznego mozna oszacowac korzystajac z:
+a) prawa Laplace’a
+>>>b) prawa Faraday’a
+c) reguly Lenza
+d) prawa Biot-Savarta
+
+21. Jaki jest wplyw domieszki krzemu w blachach elektrycznych uzywanych w produkcji maszyn:
+a) zwieksza efektywna przenikalnosc magnetyczna
+>>>b) zwieksza rezystywnosc
+c) nie ma wplywu
+d) poprawia plastyczne wlasnosci materialu
+
+4.22. Jak zaleza straty histerezowe w rdzeniach maszyn elektrycznych pradu przemiennego od czestotliwosci napiecia zasilajacego f ?
+a) nie zaleza
+b) sa proporcjonalne do f
+c) >>>sa proporcjonalne do f 1.3
+d) sa proporcjonalne do f 2.
+
+24. Moca znamionowa maszyn elektrycznych jest maksymalna w warunkach znamionowych:
+A) wartosc mocy czynnej wydawanej,
+B) wartosc mocy czynnej pobieranej,
+>>>C) wartosc mocy wydawanej czynnej albo pozornej,
+D) wartosc mocy pobieranej czynnej albo pozornej.
+
+25. Rownianie Eulere-Lagrange'a dla ukladow nie zachowawczych ma postac
+>>>A) d/dt * dL/dqi' - dL/dqi - Qi'=0
+B) d/dt * dL/dqi - dL/dqi' - Qi'=0
+C) d/dt * dL/dqi + dL/dqi' + Qi'=0
+D) d/dt * dL/dqi' + dL/dqi - Qi'=0
+
+26. Wartosc naprezen normalnych na powierzchni nienasyconego ferromagnetyka umieszczonego w prozni (lub powietrzu) w polu magnetycznym o indukcji B wynosi (dla bardzo duzych przenikalnosci zelaza, gdy skladowa styczna jest bliska zeru):
+>>>A) p=B^2/2*mi0
+B) p=B^2/mi0
+C) p=B/4*mi0
+D) p=B^3/2*mi0
+
+27. W typowych maszynach elektrycznych podczas ich znamionowej pracy wiekszosc strat mocy na ogol wystepuje :
+>>>A) w uzwojeniach
+B) w glownym obwodzie magnetycznym maszyny
+C) w czesciach mechanicznych (lozyska) oraz dla pokonania mechanicznych oporow ruchu
+D) w magnesach trwalych maszyny
+
+28. Rola transformatorow energetycznych jest:
+A) zwiekszanie przesylanej mocy elektrycznej
+B) zamiana czestotliwosci pradu i napiecia
+C) zamiana pradu przemiennego na jednokierunkowy
+>>>D) zmiana wartosci pradu i napiecia, praktycznie bez zmiany mocy
+
+29. Autotransformator to
+A) transformator z automatyczna regulacja przekladni
+B) transformator z automatyczna stabilizacja napiecia wtornego
+>>>C) indukcyjny dzielnik napiecia
+D) transformator ze zmienianym napieciem pierwotnym
+
+30. Zmiennosc napiecia w transformatorze to
+A) mozliwosc regulacji napiecia wtornego przez zmiane przekladni
+B) zespol zjawisk wywolanych zmianami napiecia zasilajacego
+C) ksztalt napiecia na wtornym uzwojeniu transformatora
+>>>D) zmiany napiecia wtornego pod wplywem zmian obciazenia i jego charakteru.
+
+31. W stanie jalowym w transformatorze wystepuja
+A) straty w rdzeniu oraz uzwojeniu pierwotnym i wtornym
+B) tylko niewielkie straty w uzwojeniach
+C) nie wystepuja zadne straty
+>>>D) praktycznie tylko straty w rdzeniu
+
+32. Napiecie zwarcia transformatora jest to:
+A) napiecie, ktore jest mierzone na zaciskach wtornych transformatora podczas zwarcia ustalonego
+B) napiecie, ktore powoduje uszkodzenie izolacji uzwojen skutkujace zwarciem miedzyzwojowym
+>>>C) napiecie, ktore przy zwartym uzwojeniu wtornym powoduje przeplyw pradow znamionowych
+D) napiecie zasilajace transformator w stanie zwarcia.
+
+33. Przy jakim obciazeniu sprawnosc transformatora ma najwieksza wartosc ?
+A) przy zwarciu
+>>>B) kiedy straty w uzwojeniach sa rowne stratom w rdzeniu
+C) przy biegu jalowym
+D) gdy w transformatorze plyna prady znamionowe
+
+34. Jakie warunki musza spelniac transformatory przeznaczone do pracy rownoleglej ?
+A) musza miec takie same moce znamionowe
+B) musza miec takie same prady znamionowe
+>>>C) musza miec takie same napiecia wtorne i napiecia zwarcia
+D) musza miec takie same napiecia pierwotne i napiecia zwarcia
+
+35. Olej w transformatorze sluzy przede wszystkim do
+>>>A) poprawy chlodzenia
+B) zmniejszenia strat mocy
+C) wyciszenia
+D) zapobieganiu wplywom na srodowisko
+
+38. Jaka jest czestotliwosc podstawowej harmonicznej dzwieku wydawanego przez pracujace transformatory?
+A) jest rowna czestotliwosci sieciowej
+>>>B) jest rowna podwojnej wartosci czestotliwosci sieciowej
+C) zalezy od ilosci faz transformatora
+D) zalezy od konstrukcji fundamentu
+
+40. O wartosci impedancji zwarcia duzych transformatorow decyduja:
+A) indukcyjnosci calkowite uzwojen
+B) rezystancje uzwojen
+C) reaktancja tzw. magnesujaca
+>>>D) reaktancje rozproszenia uzwojen
+
+41. Moca znamionowa autotransformatora jest:
+>>>A) jego moc przechodnia
+B) jego moc wlasna
+C) suma mocy wlasnej i przechodniej
+D) srednia mocy wlasnej i przechodniej
+
+42. Prad biegu jalowego typowego transformatora energetycznego, przy zasilaniu napieciem znamionowym, wynosi:
+>>>A) ponizej 5% pradu znamionowego
+B) okolo 10% pradu znamionowego
+C) okolo 30% pradu znamionowego
+D) okolo 50% pradu znamionowego
+
+43. W stanie ustalonym straty mocy w rdzeniu transformatora zaleza od wartosci skutecznej U sinusoidalnego napiecia zasilajacego i jego czestotliwosci f w nastepujacy sposob:
+A) delta P(Fe)~U^(1,5-1,7), delta P (Fe) ~f^2
+>>>B) delta P(Fe)~U^2, delta P(Fe)~f^(1,5:1,7)
+C) delta P(Fe)~U, delta P (Fe) ~f^2
+D) delta P(Fe)~U, delta P (Fe) ~f
+
+44. Pomijajac efekt naskorkowosci i tzw. straty dodatkowe, straty mocy w uzwojeniach transformatora zaleza od wartosci skutecznej I sinusoidalnego pradu transformatora i jego czestotliwosci f w nastepujacy sposob:
+A) P(Cu)~I^2, delta P(Cu)~f^(2)
+B) P(Cu)~I^2, delta P(Cu)~f
+>>>C) delta P(Cu)~I^2, delta P(Cu)~f^(0) (nie zaleza od czestotliwosci)
+D) P(Cu)~I, delta P(Cu)~f^(2)
+
+45. Transformator 6000/400V obciazony jest pradem znamionowym przy cos? ? 0poj. Jakie napiecie ustali sie na uzwojeniach strony wtornej, jesli napiecie zwarcia wynosi 5%, a strona pierwotna zasilana jest napieciem znamionowym?
+>>>A) ok. 420V
+B) ok. 380V
+C) ok.400V
+D) ok.410V
+
+46. Reaktancja rozproszenia transformatora
+A) jest zwiazana ze stratami mocy w transformatorze („rozpraszania energii”)
+B) jest rowna impedancji zwarcia
+>>>C) ma bezposredni wplyw na zmiennosc napiecia
+D) jej wplyw na wlasnosci eksploatacyjne jest praktycznie do pominiecia
+
+47. Transformatory dobrane prawidlowo do pracy rownoleglej obciazaja sie:
+A) proporcjonalnie do swoich napiec zwarcia
+>>>B) proporcjonalnie do swoich mocy znamionowych
+C) proporcjonalnie do odwrotnosci swoich impedancji zwarcia
+D) proporcjonalnie do swoich impedancji zwarcia
+
+48. Maszyny indukcyjne klatkowe typowo do pracy silnikowej zasilane sa napieciem:
+>>>A) przemiennym trojfazowym
+B) wyprostowanym z prostownika trojfazowego
+C) liniowo narastajacym
+D) stalym z baterii akumulatorow
+
+49. Predkosc biegu jalowego maszyny indukcyjnej klatkowej jest przede wszystkim okreslona przez:
+>>>A) czestotliwosc napiecia zasilajacego i liczbe par biegunow
+B) amplitude napiecia zasilajacego i jego ksztalt
+C) wartosc skuteczna napiecia zasilajacego
+D) wartosc pradu zasilajacego maszyne
+
+50. Prad rozruchowy maszyny indukcyjnej ogranicza sie przez:
+A) wlaczenie poczatkowo tylko jednej fazy
+B) zahamowanie przez pewien czas wirnika
+>>>C) obnizenie napiecia na poczatku rozruchu
+D) podanie na jedna faze uzwojenia napiecia stalego, a na pozostale zmiennego
+
+51. Poslizg maszyny indukcyjnej to:
+A) slizganie sie wirnika maszyny po powierzchni stojana
+B) wzgledna predkosc wirnika w stosunku do stojana
+>>>C) roznica predkosci pola wirujacego i wirnika, odniesiona do predkosci pola
+D) predkosc obwodowa czopa walu w maszynie o lozyskach slizgowych
+
+52. Energia elektryczna przetwarzana w maszynie indukcyjnej w energie mechaniczna jest
+przekazywana ze stojana do wirnika:
+A) poprzez korpus stojana i lozyska na wal
+>>>B) przez powietrze za posrednictwem pola magnetycznego w szczelinie
+C) przez oddzialywanie elektrostatyczne ladunkow w stojanie na wirnik
+D) przez promieniowanie cieplne rozgrzanego stojana
+
+53. Prad pobierany na biegu jalowym maszyny indukcyjnej jest potrzebny do:
+A) ogrzania wstepnego silnika przed obciazeniem go momentem zewnetrznym
+B) naprezenia mechanicznego blach, co zapobiega ich rozsypaniu sie pod obciazeniem
+C) tylko wytworzenia ruchu powietrza chlodzacego silnik
+>>>D) wytworzenia pola magnetycznego i pokrycia wszystkich strat mocy w tym stanie
+
+54. Moment obrotowy dzialajacy na wirnik maszyny indukcyjnej jest wynikiem:
+A) oddzialywania napiecia na zaciskach stojana z pradem w obwodach wirnika
+B) istnienia sil promieniowego naciagu magnetycznego dzialajacego na wirnik
+>>>C) istnienia stycznych do zewnetrznej powierzchni wirnika sil magnetycznych
+D) oddzialywania ladunkow elektrycznych zgromadzonych w uzwojeniach stojana i wirnika
+
+55. Po zalaczeniu napiecia trojfazowego na stojacy indukcyjny silnik klatkowy prad w obwodach stojana:
+A) wzrasta wraz ze wzrostem predkosci obrotowej wirnika
+B) nieznacznie zalezy od predkosci obrotowej wirnika w calym zakresie zmian predkosci
+>>>C) znacznie maleje w poblizu predkosci synchronicznej
+D) ma maksymalna wartosc przy polowie predkosci synchronicznej
+
+56. Zasilanie z falownika uzwojen stojana maszyny indukcyjnej stosujemy, aby:
+A) spowodowac falowanie predkosci obrotowej dookola wartosci sredniej
+>>>B) umozliwic dowolna zmiane predkosci obrotowej silnika, takze zmiane kierunku obrotow
+C) wytworzyc zmienna skladowa momentu elektromagnetycznego
+D) wytworzyc fale pola magnetycznego rownolegla do osi maszyny
+
+57. Moment maksymalny silnika indukcyjnego pierscieniowego mozna zwiekszyc:
+A) zwiekszajac rezystancje wlaczona do obwodow wirnika
+B) zwiekszajac rezystancje wlaczona do obwodow stojana
+C) zwiekszajac indukcyjnosc wlaczona do obwodow wirnika
+>>>D) zwiekszajac wartosc napiecia zasilajacego stojan
+
+58. Predkosc synchroniczna silnika indukcyjnego mozna zwiekszyc:
+A) zwiekszajac rezystancje wlaczona do obwodow wirnika
+B) zwiekszajac rezystancje wlaczona do obwodow stojana
+C) zwiekszajac indukcyjnosc wlaczona do obwodow wirnika
+>>>D) zwiekszajac czestotliwosc napiecia zasilajacego stojan
+
+60. Po zasileniu pradem stalym uzwojenia stojana obracajacego sie klatkowego silnika indukcyjnego:
+>>>A) jego predkosc zacznie szybko zmniejszac sie, az do zatrzymania
+B) jego predkosc nie zmieni sie istotnie
+C) jego zmiana predkosci bedzie zalezec od kierunku pradu
+D) zacznie pracowac jako generator przy stalej predkosci obrotowej
+
+61. Jak zmieni sie sprawnosc znamionowa silnika indukcyjnego klatkowego, jezeli uzwojenie
+wirnika bedzie wykonane z miedzi zamiast aluminium?
+a.)nie zmieni sie
+>>>b) zwiekszy sie
+c) zmniejszy sie.
+d) zmiana zalezy od wspolczynnika mocy silnika
+
+62. Ktory z ponizszych sposobow rozruchu jest najczesciej stosowany w przypadku silnikow indukcyjnych klatkowych o mocy znamionowej kilkuset kW?
+a) bezposredni
+b) przelacznik gwiazda-trojkat
+c) prety klatki wirnika o zwiekszonej wysokosci
+>>>d) soft-start
+
+63. Z jaka czestotliwoscia obrotowa bedzie wirowal wirnik silnika indukcyjnego pierscieniowego majacego p par biegunow i zasilanego od strony stojana napieciem o czestotliwosci f1 oraz od strony wirnika - f2, w przypadku zgodnosci obu pol wirujacych?
+>>>a) 60f1/p
+b) 60f2/p
+c) 60(f1- f2)/p
+d) 60(f1+ f2)/p
+
+64. Kiedy silnik indukcyjny trojfazowy bedzie pracowal przy zasilaniu z sieci jednofazowej?
+>>>a) nie ma takiej mozliwosci
+b) trzy fazy stojana nalezy polaczyc szeregowo
+c) trzy fazy stojana nalezy polaczyc rownolegle
+d) kat przesuniecia fazowego miedzy pradami w uzwojeniach fazowych musi byc rozny od zera
+
+65. Jaka jest relacja miedzy wartosciami ekstremalnymi charakterystyki mechanicznej rzeczywistego silnika indukcyjnego, Ts,max dla pracy silnikowej i Tg,min dla pracy generatorowej?
+a) |Ts,max |= |Tg,min|
+>>>b) |Ts,max |> |Tg,min|
+c) |Ts,max |< |Tg,min|
+d) relacja zalezy od mocy znamionowej silnika
+
+66. Po zmniejszeniu czestotliwosci napiecia zasilajacego, moment maksymalny silnika indukcyjnego:
+a) zwiekszy sie
+b) pozostanie bez zmian
+>>>c) zmniejszy sie
+d) zmiana zalezy od tego, czy uzwojenie wirnika jest pierscieniowe czy klatkowe
+
+67. Jaki jest wplyw dodatkowej rezystancji w obwodzie wirnika silnika indukcyjnego pierscieniowego na moment rozruchowy i prad rozruchowy
+>>>a) moment i prad zmniejsza sie
+b) moment zwiekszy sie, prad zmniejszy sie
+c) moment zmniejszy sie, prad zwiekszy sie
+d) moment i prad zwieksza sie
+
+69. Zmiane kierunku wirowania silnika indukcyjnego uzyskuje sie:
+a) zmieniajac sposob zasilania uzwojen (np. zaciski X, Y, Z zamiast U, V, W)
+b) przelaczajac zaciski tylko jednego z uzwojen stojana (ich zamiane ze soba, np. U z X )
+>>>c) zmieniajac kolejnosc zasilania uzwojen (np. faza R z zacisku U na V i faza S z V na U)
+d) zmieniajac kolejnosc faz zasilania uzwojen (np. faza R z S)
+
+71. Prad rozruchowy silnika indukcyjnego klatkowego zasilonego nominalnym napieciem wynosi:
+>>>A) od 4 do 8 pradow znamionowych
+B) okolo 2 pradow znamionowych
+C) jest zblizony do pradu znamionowego
+D) jest mniejszy od pradu znamionowego
+
+72. Prad biegu jalowego typowego silnika indukcyjnego, przy zasilaniu znamionowym, wynosi okolo:
+A) 5% pradu znamionowego
+B) 15% pradu znamionowego
+>>>C) 30% pradu znamionowego
+D) 80% pradu znamionowego
+
+73. Maksymalny moment obrotowy dzialajacy na wirnik maszyny indukcyjnej klatkowej zalezy:
+A) liniowo od wartosci napiecia zasilajacego uzwojenia stojana
+>>>B) kwadratowo od napiecia zasilajacego uzwojenia stojana
+C) proporcjonalnie do pierwiastka drugiego stopnia z wartosci napiecia zasilajacego uzwojenia stojana
+D) w ogole nie zalezy od wartosci napiecia
+
+74. Reaktancja rozproszenia uzwojen stojana
+A) sluzy do okreslenia strat mocy w silniku („rozpraszania energii”)
+B) jej wzrost powieksza jedynie poslizg krytyczny
+>>>C) ma bezposredni wplyw na wartosc rozwijanego momentu maksymalnego
+D) jej wplyw na wlasnosci eksploatacyjne silnika jest praktycznie do pominiecia
+
+75. Indukcyjnosc rozproszenia uzwojen stojana i wirnika
+>>>A) wplywa istotnie na wielkosc pradu rozruchowego
+B) jej wzrost powieksza jedynie poslizg krytyczny
+C) jej wzrost powieksza wartosc rozwijanego momentu maksymalnego
+D) wplywa istotnie na wielkosc pradu biegu jalowego
+
+76. Maksymalny moment obrotowy dzialajacy na wirnik maszyny indukcyjnej klatkowej zalezy:
+A) liniowo od czestotliwosci napiecia przemiennego zasilajacego uzwojenia stojana
+B) odwrotnie proporcjonalnie do czestotliwosci napiecia przemiennego zasilajacego uzwojenia stojana
+>>>C) odwrotnie proporcjonalnie do kwadratu czestotliwosci napiecia przemiennego zasilajacego uzwojenia stojana
+D) w ogole nie zalezy od czestotliwosci napiecia
+
+77. Powiekszenie rezystancji uzwojen wirnika silnika indukcyjnego:
+A) zwieksza moment maksymalny rozwijany przez silnik
+B) zmniejsza moment maksymalny rozwijany przez silnik
+C) wplywa nieznacznie na moment maksymalny rozwijany przez silnik i praktycznie jej wplyw mozna pominac
+>>>D) w ogole nie wplywa na moment maksymalny
+
+78. Rezystancja uzwojen stojana maszyny indukcyjnej:
+A) zwieksza moment maksymalny rozwijany przy pracy silnikowej i zmniejsza rozwijany przy pracy pradnicowej
+>>>B) zwieksza moment maksymalny rozwijany przy pracy pradnicowej i zmniejsza rozwijany przy pracy silnikowej
+C) zmniejsza moment maksymalny rozwijany przy pracy silnikowej i pradnicowej
+D) w ogole nie wplywa na moment maksymalny
+
+79. W schemacie zastepczym maszyny indukcyjnej predkosc obrotowa wirnika uwzglednia sie:
+>>>A) dzielac wartosc rezystancji wirnika przez poslizg
+B) dzielac wartosc reaktancji wirnika przez poslizg
+C) mnozac wartosc rezystancji wirnika przez poslizg
+D) mnozac wartosc reaktancji magnesujacej przez poslizg
+
+80. Maszyna indukcyjna wydaje moc czynna do sieci (praca generatorowa):
+>>>A) gdy wirnik obraca sie szybciej niz pole wirujace w tym samym kierunku
+B) gdy wirnik obraca sie w kierunku przeciwnym niz pole wirujace
+C) gdy w obwody wirnika wlaczone sa pojemnosci
+D) gdy poslizg krytyczny jest wiekszy od 1
+
+81. Silnik indukcyjny wytwarza moc mechaniczna 250kW wirujac z poslizgiem s = 0,1. Straty w uzwojeniach wirnika wynosza:
+A) 25kW
+>>>B) 27,8kW
+C) 2,5kW
+D) 5kW
+
+82. Silnik indukcyjny ma znamionowa przeciazalnosc 2 i poslizg krytyczny 0,1. Poslizg znamionowy silnika wynosi:
+>>>A) 0.0268
+B) 0,373
+C) 0,025
+D) 0,05
+
+83. Czas rozruchu silnika indukcyjnego zalezy od:
+>>>A) napiecia zasilajacego silnik, momentu bezwladnosci calego napedu i momentu obciazenia silnika,
+B) napiecia zasilajacego silnik i momentu bezwladnosci calego napedu, a NIE zalezy od momentu obciazenia silnika,
+C) napiecia zasilajacego silnik i momentu obciazenia silnika, a NIE zalezy od momentu bezwladnosci calego napedu,
+D) momentu bezwladnosci calego napedu i momentu obciazenia silnika, a NIE zalezy od napiecia zasilajacego silnik.
+
+84. Uzycie przelacznika Y / ? do rozruchu silnika indukcyjnego klatkowego powoduje:
+A) okolo 3-krotne podwyzszenie momentu rozruchowego silnika bez zmiany jego pradu rozruchowego,
+B) okolo 3-krotne obnizenie pradu rozruchowego silnika bez zmiany jego momentu rozruchowego,
+C) okolo ?3-krotne obnizenie pradu rozruchowego silnika i rowniez okolo ?3-krotne obnizenie jego momentu rozruchowego,
+>>>D) okolo 3-krotne obnizenie pradu rozruchowego silnika i rowniez okolo 3-krotne obnizenie jego momentu rozruchowego.
+
+85. Zdecydowana wiekszosc energii elektrycznej w Polsce wytwarzana jest w:
+A) generatorach synchronicznych cylindrycznych wzbudzanych magnesami trwalymi
+>>>B) generatorach synchronicznych cylindrycznych wzbudzanych uzwojeniem zasilanym pradem stalym
+C) generatorach synchronicznych jawnobiegunowych wzbudzanych magnesami trwalymi
+D) generatorach synchronicznych jawnobiegunowych wzbudzanych uzwojeniami zasilanymi pradem stalym
+
+4.86. Sinusoidalne przebiegi napiec trojfazowych, wytwarzanych w generatorach synchronicznych
+uzyskuje sie i utrzymuje ich charakter przy obciazeniu generatora dzieki:
+a) odpowiedniemu rozkladowi uzwojen twornika i wzbudzenia oraz wlasciwym wymiarom
+szczeliny powietrznej,
+b) stalemu pradowi w uzwojeniu wzbudzenia,
+c) 3-fazowym uzwojeniom twornika oraz symetrycznym 3-fazowym pradom tych uzwojen,
+>>>d) spelnieniu wszystkich trzech warunkow (a, b, c) rownoczesnie
+
+87. Generatory synchroniczne w jednej sieci elektroenergetycznej:
+A) moga miec predkosc wirowania zmienna w zakresie 5%
+>>>B) maja dokladnie taka sama srednia predkosc wirowania
+C) moga miec predkosc wirowania zmienna w zakresie 10%
+D) moga miec srednia predkosc wirowania zmienna w zakresie 1%
+
+88. Odbiorniki o charakterze czysto pojemnosciowym dolaczone do generatora synchronicznego w poczatkowym zakresie pradow obciazenia:
+>>>A) zwiekszaja napiecie na zaciskach generatora
+B) zmniejszaja napiecie na zaciskach generatora
+C) nie maja wplywu na napiecie na zaciskach generatora
+D) zmieniaja czestotliwosc napiecia na zaciskach generatora
+
+89. Wewnetrzny kat mocy w maszynie synchronicznej jest to:
+>>>A) kat pomiedzy osia wypadkowego pola wirujacego i podluzna osia symetrii wirnika maszyny
+B) kat pomiedzy napieciem i pradem zasilajacym stojan maszyny
+C) kat polozenia wirnika maszyny wzgledem stojana
+D) kat pomiedzy osia wypadkowego przeplywu twornika i podluzna osia symetrii wirnika maszyny
+
+90. Maszyna synchroniczna jest przewzbudzona jesli:
+A) uzwojenie wzbudzenia maszyny jest przeciazone pradowo
+>>>B) maszyna wydaje moc bierna indukcyjna do sieci
+C) maszyna pracuje obciazona momentem wiekszym od znamionowego
+D) stojan maszyny jest zasilany napieciami wyzszymi niz znamionowe
+
+91. Moc bierna w maszynie synchronicznej mozna regulowac
+A) poprzez zmiane predkosci obrotowej maszyny
+B) poprzez zmiane czestotliwosci napiecia zasilajacego stojan
+>>>C) poprzez zmiane pradu wzbudzenia
+D) poprzez zmiane obciazenia maszyny
+
+92. Zwarte obwody wirnika w generatorze synchronicznym maja na celu:
+a) zwiekszenie mocy maszyny,
+b) podniesienie przeciazalnosci statycznej,
+c) poprawe sprawnosci,
+>>>d) ograniczenie kolysan kata mocy i predkosci obrotowej maszyny, tlumienie elektrycznych
+stanow przejsciowych.
+
+93. Uzwojenia w trojfazowych silnikach synchronicznych sa zasilane:
+A) uzwojenia wzbudzenia i uzwojenia twornika trojfazowymi napieciami przemiennymi,
+>>>B) uzwojenie wzbudzenia napieciem stalym, uzwojenia twornika trojfazowymi napieciami przemiennymi,
+C) uzwojenie wzbudzenia napieciem przemiennym, uzwojenia twornika trojfazowymi napieciami przemiennymi,
+D) uzwojenia moga byc zasilane dowolnymi rodzajami napiec.
+
+94. Jakie sa wlasnosci rozruchowe silnika synchronicznego?
+A) ma bardzo dobre wlasnosci rozruchowe dzieki uzwojeniu wzbudzenia,
+>>>B) jest w stanie dokonac samorozruch, po wbudowaniu do wirnika klatki rozruchowej,
+C) rusza, ale wymaga znacznego podwyzszenia napiecia zasilajacego uzwojenie wirnika,
+D) dokonuje samorozruch, ale wymaga podwyzszenia napiecia zasilajacego uzwojenia stojana.
+
+95. Ktory z ponizszych wykresow przedstawia charakterystyke mechaniczna silnika synchronicznego: a, b, c czy d ?
+A) fas
+B) fasd
+C) fdas
+>>>D) ____|____
+
+96. Jaka jest glowna przyczyna cylindrycznego ksztaltu wirnikow turbogeneratorow?
+a) latwiejsza konserwacja
+b) korzystny rozklad pola w szczelinie
+>>>c) wieksza wytrzymalosc mechaniczna przy duzych predkosciach obrotowych
+d) mniejszy koszt wykonania
+
+4.97. Jaka jest glowna przyczyna duzej srednicy wirnika hydrogeneratorow
+a) bardziej stabilna praca
+b) mniejszy halas
+c) lepsza wentylacja
+>>>d) uzwojenie stojana o wielu parach biegunow
+
+98. Co oznacza ciagle wygaszenie zarowek w czasie synchronizacji „na ciemno” generatora synchronicznego z siecia?
+a) odpowiednie napiecia fazowe sieci i generatora sa w przeciwfazie
+b) funkcje odpowiednich napiec fazowych sieci i generatora sa identyczne
+c) katy przesuniecia fazowego miedzy odpowiednimi napieciami fazowymi sieci i generatora sa rowne zero
+>>>d) amplitudy odpowiednich napiec fazowych sieci i generatora sa identyczne
+
+100. Jakie parametry modelu maszyny synchronicznej wyznaczamy z proby zwarcia udarowego?
+>>>a) reaktancje dla osi d
+b) reaktancje dla osi q
+c) reaktancje klatek tlumiacych
+d) reaktancje rozproszenia uzwojenia fazowego stojana.
+
+101. Jaka jest glowna przyczyna, ze wirniki silnikow synchronicznych sa jawnobiegunowe?
+a) lepsza wentylacja
+>>>b) wieksza przeciazalnosc momentem
+c) mniejszy koszt wytwarzania
+d) mniejszy halas.
+
+4.102. W czasie rozruchu silnik synchroniczny utknal okolo polowy predkosci synchronicznej. Co
+mozna zrobic, aby ulatwic i dokonczyc rozruch?
+a) zewrzec opor rozruchowy w uzwojeniu wzbudzenia
+b) rozewrzec uzwojenie wzbudzenia
+c) zmniejszyc napiecie zasilajace
+>>>d) nic nie mozna zrobic, nalezy wylaczyc silnik, znalezc i usunac przyczyne.
+
+4.103. Czy silnik synchroniczny moze pracowac po przerwaniu obwodu wzbudzenia?
+a) tak
+b) nie
+>>>c) po obnizeniu obciazenia, jezeli silnik jest jawnobiegunowy
+d) po obnizeniu obciazenia, jezeli silnik jest cylindryczny.
+
+104. Maszyna synchroniczna jawnobiegunowa rozni sie od cylindrycznej:
+A) ksztaltem obwodu magnetycznego twornika,
+B) ksztaltem obwodu magnetycznego twornika i wzbudzenia,
+C) topologia uzwojenia twornika,
+>>>D) ksztaltem obwodu magnetycznego wzbudzenia.
+
+105. Sinusoidalne przebiegi napiec trojfazowych, wytwarzanych w generatorach synchronicznychuzyskuje sie i utrzymuje ich charakter przy obciazeniu generatora dzieki:
+A) odpowiedniemu rozkladowi uzwojen twornika i wzbudzenia oraz wlasciwym wymiarom szczeliny powietrznej,
+B) stalemu pradowi w uzwojeniu wzbudzenia,
+C) 3-fazowym uzwojeniom twornika oraz symetrycznym 3-fazowym pradom tych uzwojen,
+>>>D) spelnieniu wszystkich trzech warunkow rownoczesnie
+
+106. Maksymalny moment elektromagnetyczny dzialajacy na wirnik maszyny synchronicznej cylindrycznej (w stanie ustalonym) zalezy:
+A) liniowo od wartosci napiecia zasilajacego uzwojenia stojana
+>>>B) od kwadratu napiecia zasilajacego uzwojenia stojana
+C) od pierwiastka drugiego stopnia wartosci napiecia zasilajacego uzwojenia stojana
+D) w ogole nie zalezy od wartosci napiecia
+
+107. Maksymalny moment elektromagnetyczny dzialajacy na wirnik maszyny synchronicznej cylindrycznej (w stanie ustalonym) zalezy:
+A) liniowo od czestotliwosci napiecia przemiennego zasilajacego uzwojenia stojana
+B) odwrotnie proporcjonalnie do czestotliwosci napiecia przemiennego zasilajacego uzwojenia stojana
+>>>C) odwrotnie proporcjonalnie do kwadratu czestotliwosci napiecia przemiennego zasilajacego uzwojenia stojana
+D) w ogole nie zalezy od czestotliwosci napiecia
+
+108. Moment elektromagnetyczny dzialajacy na wirnik maszyny synchronicznej cylindrycznej (w stanie ustalonym) zalezy:
+A) liniowo od wartosci kata mocy
+>>>B) od sinusa kata mocy
+C) od cosinusa kata mocy
+D) w ogole nie zalezy od wartosci kata mocy
+
+109. Reaktancja rozproszenia uzwojen twornika maszyny synchronicznej:
+>>>A) jest skladnikiem reaktancji synchronicznej
+B) ma bezposredni i znaczacy wplyw na zmiennosc napiecia generatora
+C) ma bezposredni i znaczacy wplyw na maksymalna wartosc rozwijanego momentu
+D) jej wplyw na wlasnosci eksploatacyjne generatora jest praktycznie do pominiecia
+
+110. Ustalony prad zwartych uzwojen twornika maszyny synchronicznej zalezy:
+A) liniowo od predkosci obrotowej wirnika
+B) odwrotnie proporcjonalnie do predkosci obrotowej wirnika
+>>>C) nie zalezy od predkosci obrotowej wirnika w szerokim zakresie zmian tej predkosci
+D) w ogole nie zalezy od predkosci
+
+111. Napiecie indukowane w tworniku na biegu jalowym generatora synchronicznego zalezy:
+>>>A) liniowo od predkosci obrotowej wirnika
+B) od kwadratu predkosci obrotowej wirnika
+C) nie zalezy od predkosci obrotowej wirnika w szerokim zakresie zmian tej predkosci
+D) w ogole nie zalezy od predkosci wirnika
+
+112. Zwarte obwody wirnika w silniku synchronicznym maja na celu przede wszystkim:
+A) zwiekszenie mocy maszyny,
+B) podniesienie przeciazalnosci statycznej,
+C) umozliwienie regulacji predkosci,
+>>>D) umozliwienie samorozruchu silnika
+
+113. Zwarte obwody wirnika w jawnobiegunowym silniku synchronicznym:
+>>>A) tworza prety umieszczone w nabiegunnikach, zwarte pierscieniami poza nabiegunnikiem
+B) sa uzwojeniem umieszczonym na biegunach, podobnie jak uzwojenie wzbudzenia, zwartym
+zewnetrznym lacznikiem na czas rozruchu silnika
+C) sa uzwojeniem umieszczonym na biegunach, podobnie jak uzwojenie wzbudzenia, zwartym
+na trwale zewnetrznym lacznikiem
+D) sa wykonana podobnie, jak w silniku indukcyjnym, aluminiowa klatka powstala w wyniku
+zalania zlobkow cieklym aluminium
+
+114. Wirniki dwubiegunowych generatorow synchronicznych
+>>>A) sa odkutymi stalowymi walcami z wyfrezowanymi zlobkami
+B) sa walcami spakietowanymi ze stalowych blach pradnicowych
+C) maja dwa lite stalowe bieguny przymocowane do odkutego stalowego jarzma
+D) maja dwa blachowane bieguny przymocowane do odkutego stalowego jarzma
+
+116. Jawnobiegunowy silnik synchroniczny niewzbudzony, przy predkosci wirnika rownej
+predkosci wirowania pola:
+A) nie wytwarza momentu
+B) wytwarza moment jesli posiada klatke rozruchowa
+>>>C) wytwarza moment zalezny od kwadratu napiecia zasilajacego uzwojenia stojana
+D) wytwarza moment zalezny liniowo od napiecia zasilajacego uzwojenia stojana
+
+117. Typowa maszyna synchroniczna jawnobiegunowa przy trojfazowo zasilonym tworniku i
+wylaczonym wzbudzeniu:
+A) nie jest zdolna do wytworzenia momentu elektromagnetycznego
+B) wytwarza momenty przemienne, o wartosci sredniej rownej 0
+>>>C) wytwarza moment staly rzedu 20-30% momentu znamionowego
+D) moze wytworzyc moment staly zblizony do znamionowego
+
+118. Prad pobierany przez nieobciazony jawnobiegunowy silnik synchroniczny niewzbudzony, przy
+predkosci wirnika rownej predkosci wirowania pola, zalezy bezposrednio od wartosci napiecia
+zasilajacego uzwojenia stojana oraz :
+A) reaktancji synchronicznej podluznej
+>>>B) reaktancji synchronicznej poprzecznej
+C) sredniej arytmetycznej reaktancji synchronicznych podluznej i poprzecznej
+D) sredniej geometycznej reaktancji synchronicznych podluznej i poprzecznej
+
+119. Napiecie znamionowe (fazowe) jawnobiegunowego generatora synchronicznego wynosi 252V,
+reaktancja synchroniczna podluzna 10 , reaktancja synchroniczna poprzeczna 7. Ile wynosi ustalony prad zwarcia tego generatora, jesli wzbudzony jest pradem wywolujacym na biegu jalowym
+sem rowna napieciu znamionowemu:
+>>>A) 25,2A
+B) 36A
+C) 29,65A
+D) 20,6A
+
+120. Maszyny komutatorowe w polaczeniu szeregowym moga byc zasilane:
+A) tylko napieciem stalym
+B) tylko napieciem jednofazowym przemiennym
+>>>C) napieciem stalym i jednofazowym przemiennym
+D) tylko napieciem trojfazowym przemiennym
+
+121. Predkosc obrotowa silnika komutatorowego obcowzbudnego reguluje sie zmieniajac :
+A) czestotliwosc napiecia zasilajacego wirnik
+>>>B) wartosc napiecia stalego zasilajacego wirnik
+C) czestotliwosc napiecia zasilajacego obwod wzbudzenia
+D) ksztalt napiecia przemiennego zasilajacego obwod wzbudzenia
+
+122. Szczotki w maszynie komutatorowej ustawia sie tak, aby pole wirnika bylo prostopadle do
+pola
+stojana, gdyz wtedy:
+>>>A) moment elektromagnetyczny jest maksymalny przy danych pradach
+B) mozna pominac oddzialywanie wirnika
+C) drgania maszyny sa najmniejsze
+D) napiecia miedzy szczotkami sa najmniejsze
+
+123. Silnik komutatorowy w polaczeniu szeregowym nie mozna pozostawic bez odpowiedniego
+obciazenia na wale, gdyz:
+A) moze zaczac obracac sie w niewlasciwa strone
+>>>B) jego predkosc obrotowa osiagnie zbyt duza wartosc
+C) prad pobierany przez silnik zbyt wzrosnie
+D) utrudniona bedzie komutacja
+
+124. Kierunek wirowania silnika komutatorowego w polaczeniu szeregowym zmienia sie
+zmieniajac:
+A) faze napiecia przemiennego zasilajacego silnik
+B) znak napiecia stalego zasilajacego silnik
+>>>C) wzajemne polaczenie uzwojen wirnika i stojana
+D) czestotliwosc napiecia przemiennego zasilajacego silnik
+
+125. Prad rozruchowy silnika komutatorowego obcowzbudnego ogranicza sie przez:
+A) wlaczenie do obwodu wzbudzenia rezystancji szeregowej
+B) wlaczenie rezystancji rownolegle do obwodu wzbudzenie
+C) wlaczenie rezystancji rownolegle do obwodu wirnika
+>>>D) wlaczenie rezystancji szeregowo do obwodu wirnika
+
+126. Ktory z ponizszych wykresow przedstawia charakterystyke mechaniczna silnika
+komutatorowego bocznikowego: a, b, c czy d ?
+a) _/\ 
+>>>b) ---
+c) \ 
+d) |
+
+127. Ktory z ponizszych wykresow przedstawia charakterystyke mechaniczna silnika
+komutatorowego szeregowego: a, b, c czy d ?
+a) _/\ 
+b) ---
+>>>c) \ 
+d) |
+
+4.128. Predkosc obrotowa silnika obcowzbudnego zwiekszamy poprzez:
+a) zwiekszenie rezystancji w obwodzie twornika
+b) zbocznikowanie obwodu wzbudzenia
+>>>c) zmniejszenie napiecia wzbudzenia
+d) zmniejszenie napiecia twornika
+
+4.129. Predkosc obrotowa silnika bocznikowego zwiekszamy poprzez:
+a) zwiekszenie rezystancji w obwodzie twornika
+b) zbocznikowanie obwodu wzbudzenia
+>>>c) zwiekszenie rezystancji w obwodzie wzbudzenia
+d) zmniejszenie napiecia twornika
+
+4.131. Przyczyna niewzbudzania sie samowzbudnej pradnicy pradu stalego moze byc:
+>>>a) brak remanentu obwodu magnetycznego wzbudzenia
+b) za mala opornosc lub zwarcie obwodu elektrycznego wzbudzenia
+c) rozwarcie obwodu elektrycznego twornika
+d) za duza predkosc obrotowa
+
+4.132. Silnikami wykonawczymi elektromagnetycznymi pradu stalego w automatyce sa:
+a) silniki szeregowe
+b) silniki szeregowo-bocznikowe
+c) silniki bocznikowe
+>>>d) silniki obcowzbudne
+
+137. W silniku skokowym predkosc obrotowa regulujemy przez:
+A) zmiane napiecia zasilajacego uzwojenia
+B) zmiane pradu zasilajacego uzwojenia
+>>>C) zmiane czestotliwosci impulsow sterujacych
+D) dodatkowa rezystancje wlaczana szeregowo do wirnika
+
+138. Kat obrotu walu silnika skokowego zalezy od:
+A) wartosci maksymalnej napieciowych impulsow sterujacych
+B) wartosci maksymalnej pradu zasilajacego uzwojenia
+C) czestotliwosci impulsow sterujacych
+>>>D) ilosci impulsow sterujacych
+
+139. Czestotliwosc graniczna silnika skokowego to najwyzsza czestotliwosc impulsow, przy ktorej:
+A) wystepuje jeszcze ruch wirnika
+B) wirnik obraca sie ze stala srednia predkoscia
+C) nie jest przekroczona wytrzymalosc mechaniczna wirnika
+>>>D) kat obrotu wirnika odpowiada ilosci impulsow
+
+140. Moment napedowy silnika skokowego hybrydowego posiada nastepujace skladowe:
+A) tylko reluktancyjna
+B) tylko od magnesow trwalych
+>>>C) reluktancyjna i od magnesow trwalych
+D) zadna z powyzszych odpowiedzi nie jest prawidlowa
+
+141. Silnik uniwersalny to:
+>>>A) silnik komutatorowy szeregowy malej mocy
+B) silnik komutatorowy bocznikowy malej mocy
+C) silnik komutatorowy z magnesami trwalymi
+D) silnik indukcyjny jednofazowy ze zwartym zwojem
+
+142. Silniki indukcyjne klatkowe malej mocy, zasilane z sieci jednofazowej, moga dokonywac
+samorozruchu dzieki:
+>>>A) wytwarzaniu w nich pola magnetycznego zwanego eliptycznym
+B) duzej rezystancji wirnika
+C) nieliniowosci charakterystyki magnesowania
+D) pradom wirowym w zelazie wirnika
+
+143. Bezszczotkowa maszyna pradu zmiennego (AC brushless motor) to
+A) maszyna komutatorowa, w ktorej usunieto szczotki, zasilana pradem przemiennym
+>>>B) wielofazowa maszyna synchroniczna zasilana przez komutator elektroniczny, wzbudzana
+magnesami trwalymi
+C) silnik indukcyjny pierscieniowy z podnoszonymi szczotkami i zwieranymi pierscieniami
+D) 3-fazowa maszyna synchroniczna zasilana z sieci 3-fazowej, wzbudzana magnesami trwalymi
+
+144. W bezszczotkowej maszynie pradu stalego (DC brushless motor) pozadane przebiegi czasowe
+wewnetrznych, fazowych SEM maszyny sa (przy stalej predkosci obrotowej):
+A) trojkatne
+B) prostokatne
+>>>C) trapezowe
+D) sinusoidalne
+
+145. W bezszczotkowej maszynie pradu przemiennego (AC brushless motor) pozadane przebiegi
+czasowe wewnetrznych, fazowych SEM maszyny sa (przy stalej predkosci obrotowej):
+A) trojkatne
+B) prostokatne
+C) trapezowe
+>>>D) sinusoidalne
+
+146. W bezszczotkowej maszynie pradu przemiennego (AC brushless motor) fale napiec
+zasilajacych
+fazy maszyny sa formowane przez falownik w funkcji:
+A) czasu (na podstawie zadanej predkosci obrotowej)
+>>>B) mierzonego polozenia wirnika
+C) mierzonej predkosci obrotowej wirnika
+D) mierzonego momentu elektromagnetycznego maszyny
+
+147. Przelaczalny silnik reluktancyjny (switched reluctance motor SRM) posiada:
+a) cylindryczny stojan i cylindryczny wirnik
+b) cylindryczny stojan i jawnobiegunowy wirnik
+c) jawnobiegunowy stojan i cylindryczny wirnik
+>>>d) jawnobiegunowy stojan i jawnobiegunowy wirnik
+
+4.148. Przelaczalny silnik reluktancyjny (switched reluctance motor SRM) charakteryzuje sie:
+a) uzwojonym wirnikiem
+b) tym samym kierunkiem obrotu wirnika i kolejnoscia przelaczania faz stojana
+c) wieksza liczba biegunow wirnika niz stojana
+>>>d) uzaleznieniem momentu przelaczenia faz stojana od polozenia wirnika
+
+149. Silnik synchroniczny z magnesami trwalymi o rozruchu bezposrednim (skrot ang. LSPMSM)
+ma wyraznie wieksza sprawnosc znamionowa od silnika indukcyjnego o tych samych parametrach
+glownych (moc, napiecie, predkosc). Glowna przyczyna jest to, ze:
+A) ma mniej zelaza w wirniku
+>>>B) straty elektryczne w wirniku sa praktycznie rowne zero
+C) ma wiekszy wspolczynnik mocy
+D) jest wyraznie mniejszy
+
+150. Do napedu mechanizmow zegarkow uzywa sie:
+>>>A) miniaturowych silnikow skokowych z jednym uzwojeniem sterujacym, desymetryzowanych
+magnesem trwalym
+B) miniaturowych silnikow synchronicznych dwufazowych z magnesem trwalym
+C) miniaturowych silnikow synchronicznych dwufazowych reluktancyjnych
+D) miniaturowych silnikow indukcyjnych
+
+151. Silnik SRM (Switched Reluctance Motor) to:
+>>>A) reluktancyjny silnik skokowy ze sprzezeniem zwrotnym od polozenia wirnika
+B) jawnobiegunowy silnik synchroniczny niewzbudzony zasilany impulsowo
+C) silnik indukcyjny z jawnobiegunowym wirnikiem zasilany z falownika
+D) jawnobiegunowy silnik synchroniczny z magnesami trwalymi zasilany impulsowo
+
+152. Silniki histerezowe:
+A) wykonuja samorozruch dzieki dodatkowej klatce we wirniku
+B) nie rozwijaja momentu rozruchowego
+>>>C) wykonuja samorozruch wykorzystujac przesuniecie pola wzgledem inicjujacego przeplywu
+D) wykonuja samorozruch dzieki pradom wirowym indukowanym w wirniku
