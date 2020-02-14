@@ -8,7 +8,7 @@ class Questions:
         self.correct_answers = []
         self.path = path
 
-    def open_file(self):
+    def open_file_questions(self):
         f = open(self.path)
         txt_file = []
         for i in f:

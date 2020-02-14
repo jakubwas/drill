@@ -19,18 +19,25 @@ top_frame.grid(row=0, sticky='ew', columnspan=3)
 question_frame.grid(row=1, sticky='ew')
 answers_frame.grid(row=2, sticky='ew')
 check_answers_frame.grid(row=3, sticky='ew')
+counts = 0
+path_list = {}
 
 
 def open_file():
     root.filename = filedialog.askopenfilename(initialdir="/c", title="Select A File",
                                                filetypes=(("txt files", "*.txt"), ("all files", "*.*")))
     path = root.filename
-    return path
+    ques = Questions.Questions(path)
+    if path != "":
+        global counts
+        path_list[counts] = path
+        counts = counts + 1
+        ques.open_file_questions()
+        question_frame.grid_forget()
+        answers_frame.grid_forget()
+        drill(ques, counts)
 
 
-_path_ = open_file()
-ques = Questions.Questions(_path_)
-ques.open_file()
 var3 = IntVar()
 var3.set(0)
 
@@ -50,7 +57,7 @@ next_question_button.grid(row=0, column=2, sticky="W", padx=20, pady=6)
 check_button.grid(row=0, column=1, sticky="W")
 
 
-def check_answer(i, ans, question_a, question_b, question_c, question_d):
+def check_answer(i, ans, ques, question_a, question_b, question_c, question_d):
     if ques.correct_answers[i] == ans or ques.correct_answers[i] == ans.capitalize():
         ans_label = Label(check_answers_frame, text="Correct answer", fg="Blue", font=("Helvetica", 18))
         ans_label.grid(row=0, sticky="WENS", pady=25)
@@ -70,7 +77,11 @@ def check_answer(i, ans, question_a, question_b, question_c, question_d):
     ans_label.grid_forget()
 
 
-def drill():
+def drill(ques, counts):
+    question_frame = Frame(root, width=900, height=115)
+    answers_frame = Frame(root, width=900, height=220)
+    question_frame.grid(row=1, sticky='ew')
+    answers_frame.grid(row=2, sticky='ew')
     for i in range(len(ques.questions)):
 
         text_a = ques.a_answers[i]
@@ -92,13 +103,17 @@ def drill():
         question_label = Label(question_frame, wraplength=800, text=ques.questions[i], height=5, pady=10, padx=30)
 
         question_a = Radiobutton(answers_frame, wraplength=800, text=text_a, variable=var, value="a",
-                                 command=lambda: check_answer(i, "a", question_a, question_b, question_c, question_d))
+                                 command=lambda: check_answer(i, "a", ques, question_a, question_b, question_c,
+                                                              question_d))
         question_b = Radiobutton(answers_frame, wraplength=800, text=text_b, variable=var, value="b",
-                                 command=lambda: check_answer(i, "b", question_a, question_b, question_c, question_d))
+                                 command=lambda: check_answer(i, "b", ques, question_a, question_b, question_c,
+                                                              question_d))
         question_c = Radiobutton(answers_frame, wraplength=800, text=text_c, variable=var, value="c",
-                                 command=lambda: check_answer(i, "c", question_a, question_b, question_c, question_d))
+                                 command=lambda: check_answer(i, "c", ques, question_a, question_b, question_c,
+                                                              question_d))
         question_d = Radiobutton(answers_frame, wraplength=800, text=text_d, variable=var, value="d",
-                                 command=lambda: check_answer(i, "d", question_a, question_b, question_c, question_d))
+                                 command=lambda: check_answer(i, "d", ques, question_a, question_b, question_c,
+                                                              question_d))
 
         question_label.grid(row=0, sticky="W", column=0)
         question_a.grid(row=0, sticky="W", column=0)
@@ -113,7 +128,27 @@ def drill():
         question_c.grid_forget()
         question_d.grid_forget()
         var.set(None)
+        if counts != len(path_list):
+            question_label.grid_forget()
+            question_a.grid_forget()
+            question_b.grid_forget()
+            question_c.grid_forget()
+            question_d.grid_forget()
+            break
+        if i == len(ques.questions) - 1:
+            question_a.grid_forget()
+            question_b.grid_forget()
+            question_c.grid_forget()
+            question_d.grid_forget()
+            question_label.grid_forget()
+
+            ques.questions.clear()
+            ques.a_answers.clear()
+            ques.b_answers.clear()
+            ques.c_answers.clear()
+            ques.d_answers.clear()
+            open_file()
 
 
-drill()
+open_file()
 root.mainloop()
