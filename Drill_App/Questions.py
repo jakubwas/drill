@@ -1,15 +1,15 @@
 class Questions:
-    def __init__(self, path):
+    def __init__(self):
         self.questions = []
         self.a_answers = []
         self.b_answers = []
         self.c_answers = []
         self.d_answers = []
         self.correct_answers = []
-        self.path = path
+        self.path = None
 
-    def open_file_questions(self):
-        f = open(self.path)
+    def open_file_questions(self, path):
+        f = open(path)
         txt_file = []
         for i in f:
             txt_file.append(i)

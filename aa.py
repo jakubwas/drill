@@ -1,5 +1,4 @@
 from tkinter import filedialog
-import ntpath
 
 from Drill_App import Questions
 from tkinter import *
@@ -9,21 +8,23 @@ root.geometry("{}x{}".format(900, 500))
 
 # create all of the main containers/frames
 top_frame = Frame(root, bg='grey', width=900, height=45)
-question_frame = Frame(root, width=900, height=115)
-answers_frame = Frame(root, width=900, height=220)
-check_answers_frame = Frame(root, width=900, height=120)
-check_answers_frame.grid_columnconfigure(0, weight=1, minsize=900)
+question_frame = Frame(root, width=900, height=115, bg="white")
+answers_frame = Frame(root, width=900, height=220, bg="grey")
+check_answers_frame = Frame(root, width=900, height=80, bg="purple")
+check_answers_frame.grid_columnconfigure(0, weight=1)
+check_answers_frame.grid_rowconfigure(0, weight=2)
+top_frame.grid_columnconfigure(2, weight=1, minsize=900)
 
-top_frame.grid_columnconfigure(4, weight=1, minsize=900)
+check_answers_frame.grid(row=3, sticky='nsew')
+check_answers_frame.grid_columnconfigure(0, weight=1)
+check_answers_frame.grid_rowconfigure(0, weight=1)
+
 
 top_frame.grid(row=0, sticky='ew', columnspan=3)
 question_frame.grid(row=1, sticky='ew')
 answers_frame.grid(row=2, sticky='ew')
-check_answers_frame.grid(row=3, sticky='ew')
 counts = 0
 path_list = {}
-
-# get the filename from existing path
 
 
 def open_file():
@@ -31,17 +32,12 @@ def open_file():
                                                filetypes=(("txt files", "*.txt"), ("all files", "*.*")))
     path = root.filename
     ques = Questions.Questions(path)
+    check_answers_frame.destroy()
     if path != "":
         global counts
         path_list[counts] = path
         counts = counts + 1
         ques.open_file_questions()
-        question_frame.grid_forget()
-        answers_frame.grid_forget()
-        filename = ntpath.basename(path)
-        filename_label = Label(top_frame, text="File name: " + filename, bg="grey")
-        filename_label.grid(row=0, column=4, sticky="W")
-
         drill(ques, counts)
 
 
@@ -51,7 +47,7 @@ var3.set(0)
 # top_frame widgets
 open_file_button = Button(top_frame, text="Open File", command=open_file, bg="grey")
 open_file_button.grid(row=0, column=0)
-shuffle_button = Checkbutton(top_frame, text="Shuffle", command=lambda: var3.set(1), bg="grey")
+check_button = Checkbutton(top_frame, text="Shuffle", command=lambda: var3.set(1), bg="grey")
 # Radiobutton variable
 var = StringVar()
 var.set(None)
@@ -61,17 +57,20 @@ var2 = IntVar()
 
 next_question_button = Button(top_frame, text="Next Question", width=30, height=2, command=lambda: var2.set(1))
 next_question_button.grid(row=0, column=2, sticky="W", padx=20, pady=6)
-shuffle_button.grid(row=0, column=1, sticky="W")
+check_button.grid(row=0, column=1, sticky="W")
 
 
 def check_answer(i, ans, ques, question_a, question_b, question_c, question_d):
+    check_answers_frame = Frame(root, width=900, height=80, bg="purple")
+    check_answers_frame.grid(row=3, sticky='nsew')
+
     if ques.correct_answers[i] == ans or ques.correct_answers[i] == ans.capitalize():
-        ans_label = Label(check_answers_frame, text="Correct answer", fg="Blue", font=("Helvetica", 18))
-        ans_label.grid(row=0, sticky="WENS", pady=25)
+        ans_label = Label(check_answers_frame, text="Correct answer", bg="grey", fg="Blue", font=("Helvetica", 18))
+        ans_label.grid(row=0, column=0, sticky="WENS")
     else:
-        ans_label = Label(check_answers_frame, fg="Red", font=("Helvetica", 18),
+        ans_label = Label(check_answers_frame, bg='grey', fg="Red", font=("Helvetica", 18),
                           text="Wrong\nCorrect answer: " + ques.correct_answers[i])
-        ans_label.grid(row=0, sticky="WENS", pady=25)
+        ans_label.grid(row=0, column=0, sticky="WENS")
 
     # Disable the radiobutton after we click it.
     question_a.configure(state="disabled")
@@ -81,27 +80,15 @@ def check_answer(i, ans, ques, question_a, question_b, question_c, question_d):
 
     #
     ans_label.wait_variable(var2)
-    question_a.configure(state="normal")
-    question_b.configure(state="normal")
-    question_c.configure(state="normal")
-    question_d.configure(state="normal")
-    question_a.grid_remove()
-    question_b.grid_remove()
-    question_c.grid_remove()
-    question_d.grid_remove()
-    ans_label.grid_forget()
-
+    ans_label.destroy()
+    check_answers_frame.destroy()
 
 def drill(ques, counts):
-
     question_frame = Frame(root, width=900, height=115)
     answers_frame = Frame(root, width=900, height=220)
-    question_frame.grid(row=1, sticky='ew')
-    answers_frame.grid(row=2, sticky='ew')
-
+    question_frame.grid(row=1, sticky='nsew')
+    answers_frame.grid(row=2, sticky='nsew')
     for i in range(len(ques.questions)):
-        number_of_question = Label(top_frame, text="{} / {}".format(i + 1, len(ques.questions)), font=("Helvetica", 14), fg="blue", height=1, width=10)
-        number_of_question.grid(row=0, column=3, sticky="W")
 
         text_a = ques.a_answers[i]
         if str(text_a).startswith(">>>"):
@@ -148,8 +135,11 @@ def drill(ques, counts):
         question_d.grid_forget()
         var.set(None)
         if counts != len(path_list):
-            question_frame.grid_remove()
-            answers_frame.grid_remove()
+            question_label.grid_forget()
+            question_a.grid_forget()
+            question_b.grid_forget()
+            question_c.grid_forget()
+            question_d.grid_forget()
             break
         if i == len(ques.questions) - 1:
             question_a.grid_forget()
