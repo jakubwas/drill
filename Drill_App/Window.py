@@ -9,9 +9,10 @@ class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.geometry("600x400")
+        self.geometry("900x500")
         self.title("Drill")
         self.columnconfigure(0, weight=1)
+        self.resizable(False, False)
 
         questions_object = Questions()
 
@@ -22,7 +23,7 @@ class MainWindow(tk.Tk):
         question_frame = Question_Frame(container)
         question_frame.grid(row=1, column=0, sticky="NEWS")
 
-        self.top_frame = Top_Frame(container, questions_object, question_frame)
+        self.top_frame = Top_Frame(self, container, questions_object, question_frame)
         self.top_frame.grid(row=0, column=0, sticky="NEWS")
 
 
