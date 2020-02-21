@@ -11,6 +11,14 @@ class Questions:
     def open_file_questions(self, path):
         f = open(path)
         txt_file = []
+
+        self.questions.clear()
+        self.a_answers.clear()
+        self.b_answers.clear()
+        self.c_answers.clear()
+        self.d_answers.clear()
+        self.c_answers.clear()
+
         for i in f:
             txt_file.append(i)
 

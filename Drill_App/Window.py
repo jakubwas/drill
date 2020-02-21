@@ -20,10 +20,11 @@ class MainWindow(tk.Tk):
         container.columnconfigure(0, weight=1)
 
         question_frame = Question_Frame(container, questions_object)
-        question_frame.grid(row=1, column=0, sticky="NSWE")
+        question_frame.grid(row=1, column=0, sticky="NEWS")
 
         top_frame = Top_Frame(container, questions_object, question_frame)
-        top_frame.grid(row=0, column=0, sticky="NSWE")
+        top_frame.grid(row=0, column=0, sticky="NEWS")
+
 
 root = MainWindow()
 root.mainloop()
