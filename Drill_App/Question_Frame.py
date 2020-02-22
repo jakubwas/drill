@@ -18,8 +18,11 @@ class Question_Frame(ttk.Frame):
         self.text_c = None
         self.text_d = None
         self.j = None
+        # Question label style
+        question_label_style = ttk.Style()
+        question_label_style.configure("qls.TLabel", background="#e8eaed")
 
-        self.label_question = ttk.Label(self)
+        self.label_question = ttk.Label(self, style="qls.TLabel")
         self.a_answer = ttk.Radiobutton(self, variable=self.selected_answer, value="a", command=self.check_answer)
         self.b_answer = ttk.Radiobutton(self, variable=self.selected_answer, value="b", command=self.check_answer)
         self.c_answer = ttk.Radiobutton(self, variable=self.selected_answer, value="c", command=self.check_answer)
@@ -48,7 +51,7 @@ class Question_Frame(ttk.Frame):
         self.label_correct_wrong.grid(sticky="NS")
 
     def drill(self):
-        self.label_question.grid(row=0, column=0, sticky="W", padx=(10, 0))
+        self.label_question.grid(row=0, column=0, sticky="WENS")
         self.rowconfigure(0, minsize=120)
         self.columnconfigure(0, weight=1)
         ttk.Separator(self, orient="horizontal").grid(row=0, columnspan=6, sticky="SWE")
