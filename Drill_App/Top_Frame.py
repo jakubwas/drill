@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog
 from Drill_App.Question_Frame import Question_Frame
 from Drill_App.Info import message
-
+import random
 
 class Top_Frame(ttk.Frame):
     def __init__(self, main_window_root, container, question_object, **kwargs):
@@ -34,8 +34,10 @@ class Top_Frame(ttk.Frame):
         )
         self.window_size.bind("<<ComboboxSelected>>", self.change_window_size)
 
-        self.shuffle_var = tk.IntVar()
-        self.shuffle_questions = ttk.Checkbutton(self, text="Shuffle questions")
+        self.shuffle_var = tk.StringVar()
+        self.shuffle_var.set("no")
+        self.shuffle_questions = ttk.Checkbutton(self, text="Shuffle questions", variable=self.shuffle_var, onvalue='yes', offvalue='no',
+                                                 command=self.shuffle_command)
         self.label_number_of_question = ttk.Label(self)
         self.label_correct_wrong = ttk.Label(self, text="Answer", font=("Helvetica", 10), foreground="black")
         self.info_button = ttk.Button(self, width=5, text="Info", command=message)
@@ -59,6 +61,25 @@ class Top_Frame(ttk.Frame):
 
         self.path = None
 
+    def quest(self):
+        self.question_frame = Question_Frame(self.container)
+        self.question_frame.grid(row=1, column=0, sticky="NEWS")
+        self.question_frame.question_object = self.question_object
+        self.question_frame.next_question_button = self.button_next_question
+        self.question_frame.label_number_of_question = self.label_number_of_question
+        self.question_frame.label_correct_wrong = self.label_correct_wrong
+
+    def shuffle_command(self):
+        print(type(self.question_frame))
+        if type(self.question_frame) is Question_Frame:
+            self.question_frame.destroy()
+        self.quest()
+        print(self.shuffle_var.get())
+        self.question_frame.question_range = list(range(0, len(self.question_frame.question_object.questions), 1))
+        if self.shuffle_var.get() == "yes":
+            random.shuffle(self.question_frame.question_range)
+        self.question_frame.drill()
+
     def change_window_size(self, event):
         self.main_window_root.geometry(self.window_size_variable.get())
 
@@ -69,10 +90,4 @@ class Top_Frame(ttk.Frame):
             if type(self.question_frame) is Question_Frame:
                 self.question_frame.destroy()
             self.question_object.open_file_questions(self.path)
-            self.question_frame = Question_Frame(self.container)
-            self.question_frame.grid(row=1, column=0, sticky="NEWS")
-            self.question_frame.question_object = self.question_object
-            self.question_frame.next_question_button = self.button_next_question
-            self.question_frame.label_number_of_question = self.label_number_of_question
-            self.question_frame.label_correct_wrong = self.label_correct_wrong
-            self.question_frame.drill()
+            self.shuffle_command()

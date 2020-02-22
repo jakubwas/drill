@@ -18,6 +18,7 @@ class Question_Frame(ttk.Frame):
         self.text_c = None
         self.text_d = None
         self.j = None
+        self.question_range = None
         # Question label style
         question_label_style = ttk.Style()
         question_label_style.configure("qls.TLabel", background="#e8eaed")
@@ -60,31 +61,31 @@ class Question_Frame(ttk.Frame):
         self.c_answer.grid(row=3, column=0, sticky="W")
         self.d_answer.grid(row=4, column=0, sticky="W")
 
-        for i in range(len(self.question_object.questions)):
+        for i in self.question_range:
             self.label_number_of_question.config(
                 text=f"{i+1}/{len(self.question_object.questions)}",
                 font=("Helvetica", 15)
             )
             self.j = i
-            self.text_question = self.question_object.questions[i]
+            self.text_question = self.question_object.questions[self.question_range[i]]
             self.label_question.config(text=self.text_question, wraplength=840, font=("Helvetica", 14))
 
-            self.text_a = self.question_object.a_answers[i]
+            self.text_a = self.question_object.a_answers[self.question_range[i]]
             if str(self.text_a).startswith(">>>"):
                 self.text_a = self.text_a[3:]
             self.a_answer.config(text=self.text_a)
 
-            self.text_b = self.question_object.b_answers[i]
+            self.text_b = self.question_object.b_answers[self.question_range[i]]
             if str(self.text_b).startswith(">>>"):
                 self.text_b = self.text_b[3:]
             self.b_answer.config(text=self.text_b)
 
-            self.text_c = self.question_object.c_answers[i]
+            self.text_c = self.question_object.c_answers[self.question_range[i]]
             if str(self.text_c).startswith(">>>"):
                 self.text_c = self.text_c[3:]
             self.c_answer.config(text=self.text_c)
 
-            self.text_d = self.question_object.d_answers[i]
+            self.text_d = self.question_object.d_answers[self.question_range[i]]
             if str(self.text_d).startswith(">>>"):
                 self.text_d = self.text_d[3:]
             self.d_answer.config(text=self.text_d)
