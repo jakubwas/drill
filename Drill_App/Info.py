@@ -1,8 +1,8 @@
-from tkinter import ttk, messagebox
+from tkinter import messagebox
 
 
 def message():
-    title = "primav"
+    title = "About"
     text = "The aim of this app is to help student to prepare to their tests.\n\n" \
            "Sample text file\n\n" \
            "1. What is the capitol of Australia?\n\n" \

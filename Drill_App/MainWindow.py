@@ -12,12 +12,11 @@ class MainWindow(tk.Tk):
         self.title("Drill")
         self.columnconfigure(0, weight=1)
         self.resizable(False, False)
-        self.frames = dict()
 
         questions_object = Questions()
 
         container = ttk.Frame(self)
-        container.grid(padx=10, pady=10, sticky="EW")
+        container.grid(padx=3, pady=3, sticky="EW")
         container.columnconfigure(0, weight=1)
 
         self.top_frame = Top_Frame(self, container, questions_object)
