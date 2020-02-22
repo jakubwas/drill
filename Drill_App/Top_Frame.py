@@ -4,12 +4,12 @@ from Drill_App.Question_Frame import Question_Frame
 
 
 class Top_Frame(ttk.Frame):
-    def __init__(self, main_window_root, container, question_object, question_frame, **kwargs):
+    def __init__(self, main_window_root, container, question_object, **kwargs):
         super().__init__(container, **kwargs)
         self.main_window_root = main_window_root
         self.columnconfigure(4, weight=1)
         self.question_object = question_object
-        self.question_frame = question_frame
+        self.question_frame = None
         self.container = container
 
         self.button_open_file = ttk.Button(self, text="Open file", command=self.open_file, width=10)
@@ -64,7 +64,8 @@ class Top_Frame(ttk.Frame):
         self.path = filedialog.askopenfilename(initialdir="/c", title="Select A File",
                                                filetypes=(("txt files", "*.txt"), ("all files", "*.*")))
         if self.path != "":
-            self.question_frame.destroy()
+            if type(self.question_frame) is Question_Frame:
+                self.question_frame.destroy()
             self.question_object.open_file_questions(self.path)
             self.question_frame = Question_Frame(self.container)
             self.question_frame.grid(row=1, column=0, sticky="NEWS")
