@@ -1,14 +1,18 @@
-import tkinter as tk
-from tkinter import ttk
-from Drill_App.Question_Frame import Question_Frame
+from tkinter import ttk, messagebox
 
 
-class Info(tk.Frame):
-    def __init__(self, container, **kw):
-        super().__init__(container, **kw)
-
-        intro_label = ttk.Label(self, text="Drill application")
-        intro_label.grid(row=0, column=0)
-
-        go_back_button = ttk.Button(self, text="Back", command=lambda: controller.show_frame())
-        go_back_button.grid(row=1, column=0)
+def message():
+    title = "primav"
+    text = "The aim of this app is to help student to prepare to their tests.\n\n" \
+           "Sample text file\n\n" \
+           "1. What is the capitol of Australia?\n\n" \
+           "a) Vienna\n\n" \
+           ">>>b) Canberra\n\n" \
+           "c) Sydney\n\n" \
+           "d) Cracow\n\n" \
+           "EMPTY LINE\n\n" \
+           "2. Next question\n\n" \
+           "...\n\n" \
+           "                                      Created by Jakub Was\n\n" \
+           "                                      email: wasjakub3237@gmail.com"
+    messagebox.showinfo(title, text)

@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, filedialog
 from Drill_App.Question_Frame import Question_Frame
+from Drill_App.Info import message
 
 
 class Top_Frame(ttk.Frame):
@@ -13,7 +14,6 @@ class Top_Frame(ttk.Frame):
         self.container = container
 
         self.button_open_file = ttk.Button(self, text="Open file", command=self.open_file, width=10)
-        #  button_add_file = ttk.Button(self, text="Add file")
         self.button_next_question = ttk.Button(
             self,
             text="Next question",
@@ -35,7 +35,7 @@ class Top_Frame(ttk.Frame):
         self.shuffle_questions = ttk.Checkbutton(self, text="Shuffle questions")
         self.label_number_of_question = ttk.Label(self)
         self.label_correct_wrong = ttk.Label(self, text="Answer", font=("Helvetica", 10), foreground="black")
-        self.info_button = ttk.Button(self, width=5, text="Info")
+        self.info_button = ttk.Button(self, width=5, text="Info", command=message)
         self.label_number_of_question_text = ttk.Label(self, text="Number of Question")
 
         self.button_open_file.grid(row=0, column=0, padx=(0, 10), sticky="W", pady=(0, 3))

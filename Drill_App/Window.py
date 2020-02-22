@@ -2,8 +2,6 @@ import tkinter as tk
 from tkinter import ttk
 from Drill_App.Questions import Questions
 from Drill_App.Top_Frame import Top_Frame
-from Drill_App.Question_Frame import Question_Frame
-from Drill_App.Info import Info
 
 
 class MainWindow(tk.Tk):
