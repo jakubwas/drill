@@ -3,6 +3,7 @@ from tkinter import ttk
 from Drill_App.Questions import Questions
 from Drill_App.Top_Frame import Top_Frame
 from Drill_App.Question_Frame import Question_Frame
+from Drill_App.Info import Info
 
 
 class MainWindow(tk.Tk):
@@ -13,6 +14,7 @@ class MainWindow(tk.Tk):
         self.title("Drill")
         self.columnconfigure(0, weight=1)
         self.resizable(False, False)
+        self.frames = dict()
 
         questions_object = Questions()
 

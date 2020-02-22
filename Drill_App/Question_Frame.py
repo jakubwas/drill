@@ -26,8 +26,8 @@ class Question_Frame(ttk.Frame):
         self.d_answer = ttk.Radiobutton(self, variable=self.selected_answer, value="d", command=self.check_answer)
 
         # Style
-
-
+        style = ttk.Style()
+        style.configure("TRadiobutton", font=("Helvetica", 10,), wraplength=840)
         # Variables
         self.var = tk.IntVar()
         self.next_question_var = tk.IntVar()
@@ -36,18 +36,23 @@ class Question_Frame(ttk.Frame):
         if self.selected_answer.get().capitalize() == self.question_object.correct_answers[self.j].capitalize():
             self.label_correct_wrong.config(
                 text="Correct answer.",
-                font=("Helvetica", 16),
+                font=("Helvetica", 16, "bold"),
+                foreground="blue"
             )
         else:
             self.label_correct_wrong.config(
                 text=f"         Wrong !\nCorrect answer is: {self.question_object.correct_answers[self.j]}",
-                font=("Helvetica", 16)
+                font=("Helvetica", 16, "bold"),
+                foreground="red"
                 )
         self.label_correct_wrong.grid(sticky="NS")
 
     def drill(self):
-        self.label_question.grid(row=0, column=0, sticky="W")
-        self.a_answer.grid(row=1, column=0, sticky="W")
+        self.label_question.grid(row=0, column=0, sticky="W", padx=(10, 0))
+        self.rowconfigure(0, minsize=120)
+        self.columnconfigure(0, weight=1)
+        ttk.Separator(self, orient="horizontal").grid(row=0, columnspan=6, sticky="SWE")
+        self.a_answer.grid(row=1, column=0, sticky="W", pady=(10, 0))
         self.b_answer.grid(row=2, column=0, sticky="W")
         self.c_answer.grid(row=3, column=0, sticky="W")
         self.d_answer.grid(row=4, column=0, sticky="W")
@@ -59,7 +64,7 @@ class Question_Frame(ttk.Frame):
             )
             self.j = i
             self.text_question = self.question_object.questions[i]
-            self.label_question.config(text=self.text_question, wraplength=980, font=("Helvetica", 14))
+            self.label_question.config(text=self.text_question, wraplength=840, font=("Helvetica", 14))
 
             self.text_a = self.question_object.a_answers[i]
             if str(self.text_a).startswith(">>>"):
@@ -86,6 +91,7 @@ class Question_Frame(ttk.Frame):
             self.selected_answer.set(None)
             self.label_correct_wrong.config(
                 text="Answer",
-                font=("Helvetica", 10)
+                font=("Helvetica", 10),
+                foreground="black"
             )
             self.label_correct_wrong.grid(sticky="N")

@@ -25,7 +25,7 @@ class Top_Frame(ttk.Frame):
         self.window_size = ttk.Combobox(
             self,
             textvariable=self.window_size_variable,
-            values=("900x500", "1000x800"),
+            values=("900x400", "900x450", "900x500", "900x550", "900x600", "900x650"),
             state="readonly",
             width=8
         )
@@ -34,7 +34,7 @@ class Top_Frame(ttk.Frame):
         self.shuffle_answers = ttk.Checkbutton(self, text="Shuffle answers")
         self.shuffle_questions = ttk.Checkbutton(self, text="Shuffle questions")
         self.label_number_of_question = ttk.Label(self)
-        self.label_correct_wrong = ttk.Label(self, text="Answer", font=("Helvetica", 10))
+        self.label_correct_wrong = ttk.Label(self, text="Answer", font=("Helvetica", 10), foreground="black")
         self.info_button = ttk.Button(self, width=5, text="Info")
         self.label_number_of_question_text = ttk.Label(self, text="Number of Question")
 
