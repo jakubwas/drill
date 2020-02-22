@@ -18,6 +18,7 @@ class Question_Frame(ttk.Frame):
         self.text_c = None
         self.text_d = None
         self.j = None
+        self.x = 0
         self.question_range = None
         # Question label style
         question_label_style = ttk.Style()
@@ -63,10 +64,11 @@ class Question_Frame(ttk.Frame):
 
         for i in self.question_range:
             self.label_number_of_question.config(
-                text=f"{i+1}/{len(self.question_object.questions)}",
+                text=f"{self.x+1}/{len(self.question_object.questions)}",
                 font=("Helvetica", 15)
             )
             self.j = i
+            self.x += 1
             self.text_question = self.question_object.questions[self.question_range[i]]
             self.label_question.config(text=self.text_question, wraplength=840, font=("Helvetica", 14))
 

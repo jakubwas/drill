@@ -4,6 +4,7 @@ from Drill_App.Question_Frame import Question_Frame
 from Drill_App.Info import message
 import random
 
+
 class Top_Frame(ttk.Frame):
     def __init__(self, main_window_root, container, question_object, **kwargs):
         super().__init__(container, **kwargs)
@@ -87,6 +88,12 @@ class Top_Frame(ttk.Frame):
         self.path = filedialog.askopenfilename(initialdir="/c", title="Select A File",
                                                filetypes=(("txt files", "*.txt"), ("all files", "*.*")))
         if self.path != "":
+            self.label_correct_wrong.config(
+                text="Answer",
+                font=("Helvetica", 10),
+                foreground="black"
+            )
+            self.label_correct_wrong.grid(sticky="N")
             if type(self.question_frame) is Question_Frame:
                 self.question_frame.destroy()
             self.question_object.open_file_questions(self.path)
