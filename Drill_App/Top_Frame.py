@@ -19,10 +19,10 @@ class Top_Frame(ttk.Frame):
         # Style:
         # Checkbutton style
         style_checkbutton = ttk.Style()
-        style_checkbutton.configure("TCheckbutton", background="#d9d9de")
+        style_checkbutton.configure("TCheckbutton", background="#d9d9de", font=("Helvetica", 8, "bold"))
         # Button style
         style_button = ttk.Style()
-        style_button.configure("TButton", background="#031a85")
+        style_button.configure("TButton", background="#031a85", foreground="#0014c2", font=("Helvetica", 9, "bold"))
         # Separator style
         line_style = ttk.Style()
         line_style.configure("TSeparator", background="#000000")
@@ -38,15 +38,15 @@ class Top_Frame(ttk.Frame):
         self.button_next_question = ttk.Button(
             self,
             text="Next question",
-            width=35,
+            width=32,
             command=lambda: self.question_frame.next_question_var.set(1))
         self.button_reset = ttk.Button(self, text="Reset", command=self.shuffle_command)
         self.info_button = ttk.Button(self, width=5, text="Info", command=message)
 
         # Labels
         self.label_number_of_question = ttk.Label(self)
-        self.label_correct_wrong = ttk.Label(self, text="Answer", font=("Helvetica", 10), foreground="black")
-        self.label_number_of_question_text = ttk.Label(self, text="Number of Question")
+        self.label_correct_wrong = ttk.Label(self, text="Answer", font=("Helvetica", 10, "italic"), foreground="black")
+        self.label_number_of_question_text = ttk.Label(self, text="Number of Question", font=("Helvetica", 9, "italic"))
 
         # Combobox
         self.window_size = ttk.Combobox(
@@ -59,7 +59,7 @@ class Top_Frame(ttk.Frame):
         self.window_size.bind("<<ComboboxSelected>>", self.change_window_size)  # window_size command
 
         # Checkbutton
-        self.shuffle_questions = ttk.Checkbutton(self, text="Shuffle", variable=self.shuffle_var,
+        self.shuffle_questions = ttk.Checkbutton(self, text="  Shuffle", variable=self.shuffle_var,
                                                  onvalue='yes', offvalue='no',
                                                  command=self.shuffle_command)
 
@@ -89,7 +89,7 @@ class Top_Frame(ttk.Frame):
     def config_label_answer(self):
         self.label_correct_wrong.config(
             text="Answer",
-            font=("Helvetica", 10),
+            font=("Helvetica", 10, "italic"),
             foreground="black"
         )
         self.label_correct_wrong.grid(sticky="N")

@@ -23,7 +23,7 @@ class Question_Frame(ttk.Frame):
         # Style
         # question
         style_question_label = ttk.Style()
-        style_question_label.configure("qls.TLabel", background="#e8eaed")
+        style_question_label.configure("qls.TLabel", background="#bed4f7")
         # answer
         style_answer = ttk.Style()
         style_answer.configure("TRadiobutton", font=("Helvetica", 10,), wraplength=840)
@@ -44,7 +44,7 @@ class Question_Frame(ttk.Frame):
     def check_answer(self):
         if self.selected_answer.get().capitalize() == self.question_object.correct_answers[self.j].capitalize():
             self.label_correct_wrong.config(
-                text="Correct answer.",
+                text="Correct answer",
                 font=("Helvetica", 16, "bold"),
                 foreground="blue")
         else:
@@ -107,7 +107,7 @@ class Question_Frame(ttk.Frame):
             self.selected_answer.set(None)  # unselect selected answer
             self.label_correct_wrong.config(  # we don't want to have old answer(correct or wrong when new question
                 text="Answer",                # appears)
-                font=("Helvetica", 10),
+                font=("Helvetica", 10, "italic"),
                 foreground="black"
             )
             self.label_correct_wrong.grid(sticky="N")
