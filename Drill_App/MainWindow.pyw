@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
-from Drill_App.Questions import Questions
-from Drill_App.Top_Frame import Top_Frame
+from Questions import Questions
+from Top_Frame import Top_Frame
 
 
 class MainWindow(tk.Tk):

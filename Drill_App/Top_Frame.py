@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, filedialog
-from Drill_App.Question_Frame import Question_Frame
-from Drill_App.Info import message
+from Question_Frame import Question_Frame
+from Info import message
 import random
 
 
